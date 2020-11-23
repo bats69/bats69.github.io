@@ -1,0 +1,12 @@
+
+
+@font-family
+{
+	font-family: 'Raleway-Regular';
+    src: url('police/Raleway-Regular-webfont.eot');
+    src: url('police/Raleway-Regular-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/Raleway-Regular-webfont.woff2') format('woff2'),
+         url('police/Raleway-Regular-webfont.woff') format('woff'),
+         url('police/Raleway-Regular-webfont.ttf') format('truetype'),
+         url('police/Raleway-Regular-webfont.svg#Raleway-Regular') format('svg');
+    

@@ -9,4 +9,55 @@
          url('police/Raleway-Regular-webfont.woff') format('woff'),
          url('police/Raleway-Regular-webfont.ttf') format('truetype'),
          url('police/Raleway-Regular-webfont.svg#Raleway-Regular') format('svg');
-    
+}
+body
+{
+	font-family: Raleway, calibri, sans-serif;
+}
+.header
+{
+	display: flex;
+	width: 100%;
+	
+}
+nav
+{
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+.headerlien
+{
+	padding-right: 100px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.titre
+{
+	font-size: 16px;
+}
+.soustitre
+{
+	font-size: 14px;
+}
+.lieu
+{
+	display: flex;
+	background-color: yellow;
+}
+.iconmap
+{
+	margin-right: 12px;
+}
+.filtrebuttonicon
+{
+	display: flex;
+	background-color: red;
+	justify-content:space-around;
+	align-items: center;
+}
+.filtreicon
+{
+	border-color: #f2f2f2;
+}

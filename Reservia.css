@@ -10,6 +10,7 @@
          url('police/Raleway-Regular-webfont.ttf') format('truetype'),
          url('police/Raleway-Regular-webfont.svg#Raleway-Regular') format('svg');
 }
+
 body
 {
 	font-family: Raleway, calibri, sans-serif;
@@ -17,7 +18,7 @@ body
 .header
 {
 	display: flex;
-	width: 100%;
+	justify-content: space-around;
 	
 }
 nav
@@ -29,35 +30,62 @@ nav
 }
 .headerlien
 {
-	padding-right: 100px;
+	padding-top: 15px;
+	padding-right: 80px;
 	text-decoration: none;
 	font-weight: bold;
+
 }
 .titre
 {
-	font-size: 16px;
+	font-size: 24px;
 }
 .soustitre
 {
-	font-size: 14px;
+	font-size: 18px;
+
 }
 .lieu
 {
 	display: flex;
-	background-color: yellow;
+	width: 35%;
+	justify-content: flex-start;
 }
 .iconmap
 {
-	margin-right: 12px;
-}
-.filtrebuttonicon
-{
 	display: flex;
-	background-color: red;
-	justify-content:space-around;
+	background-color: #DEEBFF;
+	width: 35px;
+	height: 37px;
+	font-size: 18px;
 	align-items: center;
+	justify-content: center;
+	border: 3px solid #DEEBFF;
+	border-bottom-left-radius: 12px;
+	border-top-left-radius: 12px;
+
 }
-.filtreicon
+input
 {
-	border-color: #f2f2f2;
+	border: 2px solid #DEEBFF;
+	height: 37px;
+	border-right: none;
+	border-left: none;
+	font-weight: bold;
+	padding-left: 8px;
+}
+.buttonrecherche
+{
+	border: 3px solid #0065FC;
+	height: 43px;
+	width: 100px;
+	background-color: #0065FC;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	color: white;
+	font-weight: bold;
+}
+.buttonrecherche:hover
+{
+	cursor: pointer;
 }

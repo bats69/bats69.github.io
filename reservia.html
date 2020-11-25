@@ -28,30 +28,31 @@
 			<p class="soustitre">En plein centre ville ou en pleine nature</p>
 		</section>
 
-		<form class="lieu" method="get" action="proceedfrom.html" method="get">
-			<span class="iconmap">
+		<form class="lieu" method="post" action="proceedfrom.html">
+			<p>
+			<div class="iconmap">
 				<i class="fas fa-map-marker-alt"></i>
-			</span>
+			</div>
 				<div class="recherchelieu">
 					<label for="recherchedulieu"></label>
 					<input type="text" placeholder="Marseille, France" id="recherchedulieu">
 				</div>
 
-				<div class="iconrecherche">
-					<button class="buttonrecherche"><i class="fas fa-search"></i>recherche</button>
-				</div>
+				
+					<button class="buttonrecherche">Rechercher</button>
+				</p>
 		</form>
 			<div class="filtrebuttonicon">
 				<h3 class="titrefiltres">Filtres</h3>
-					<span class="filtreicon"><button class="buttoneco"><i class="fas fa-money-bill-wave"></i>Économique</button></span>
-					<span class="filtreicon"><button class="buttonchild"><i class="fas fa-child"></i>Familial</button></span>
-					<span class="filtreicon"><button class="buttonlove"><i class="fas fa-heart"></i>Romantique</button></span>
-					<span class="filtreicon"><button class="buttonpet"><i class="fas fa-dog">Animaux autorisés</i>
-					</button></span>
+					<button class="buttoneco"><div class="filtreicon"><i class="fas fa-money-bill-wave"></i>Économique</button></div>
+					<button class="buttonchild"><div class="filtreicon"><i class="fas fa-child"></i>Familial</button></div>
+					<button class="buttonlove"><div class="filtreicon"><i class="fas fa-heart"></i>Romantique</button></div>
+					<button class="buttonpet"><div class="filtreicon"><i class="fas fa-dog"></i>Animaux autorisés
+					</button></div>
 			</div>
-			<span class="iconinfo">
+			<div class="iconinfo">
 				<i class="fas fa-info"> Plus de 500 logements sont disponibles dans cette ville</i>
-			</span>
+			</div>
 		
 	</main>
 

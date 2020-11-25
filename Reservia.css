@@ -11,9 +11,10 @@
          url('police/Raleway-Regular-webfont.svg#Raleway-Regular') format('svg');
 }
 
-body
+body, html, input, button
 {
-	font-family: Raleway, calibri, sans-serif;
+	
+	font-family: Raleway, sans-serif;
 }
 .header
 {
@@ -38,12 +39,17 @@ nav
 }
 .titre
 {
+	
 	font-size: 24px;
+	font-weight: bold;
+	
+
 }
 .soustitre
 {
-	font-size: 18px;
-
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
 }
 .lieu
 {
@@ -56,7 +62,7 @@ nav
 	display: flex;
 	background-color: #DEEBFF;
 	width: 35px;
-	height: 37px;
+	height: 45px;
 	font-size: 18px;
 	align-items: center;
 	justify-content: center;
@@ -68,24 +74,122 @@ nav
 input
 {
 	border: 2px solid #DEEBFF;
-	height: 37px;
+	height: 45px;
 	border-right: none;
 	border-left: none;
 	font-weight: bold;
 	padding-left: 8px;
+	width: 230px;
 }
 .buttonrecherche
 {
 	border: 3px solid #0065FC;
-	height: 43px;
-	width: 100px;
+	height: 51px;
+	width: 130px;
 	background-color: #0065FC;
 	border-top-right-radius: 12px;
 	border-bottom-right-radius: 12px;
 	color: white;
 	font-weight: bold;
+	font-size: 14px;
 }
 .buttonrecherche:hover
 {
 	cursor: pointer;
+}
+.filtrebuttonicon
+{
+	display: flex;
+	width: 55%;
+	margin-top: 20px;
+	align-items:center;
+	justify-content: space-between;
+	align-content: flex-start;
+	
+}
+button
+{
+	border: 2px solid #DEEBFF;
+	height: 43px;
+	width: 200px;
+	border-top-right-radius: 45px;
+	border-bottom-right-radius: 45px;
+	font-weight: bold;
+	border-left: none;
+	background-color: white;
+}
+.btneco
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	width: 150px;
+	padding-right: 55px;
+	text-align: center;
+	height: 52px;
+	margin: 20px;
+}
+.btnfam
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	width: 120px;
+	padding-right: 68px;
+	text-align: center;
+	height: 52px;
+	margin: 20px;
+}
+.btnlove
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	width: 140px;
+	padding-right: 50px;
+	text-align: center;
+	height: 52px;
+	margin: 20px;
+}
+.btndog
+{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	padding-right: 140px;
+	height: 52px;
+	width: 200px;
+	background-color: yellow;
+	
+
+
+	
+}
+.titrefiltre
+{
+	margin-right: 20px;
+}
+.filtrebuttonicon button:hover 
+{
+	cursor: pointer;
+	box-shadow: 3px 3px 0 #DEEBFF;
+}
+
+.filtreicon .fas
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid #DEEBFF;
+	font-size: 14px;
+	color: #0065FC;
+	margin-right: 17px;
+	border-radius: 160px;
+	width: 46px;
+	height: 46px;
+	background-color: #DEEBFF;
 }

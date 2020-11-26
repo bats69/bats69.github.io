@@ -13,21 +13,18 @@
 
 body, html, input, button
 {
-	
 	font-family: Raleway, sans-serif;
 }
 .header
 {
 	display: flex;
 	justify-content: space-around;
-	
 }
 nav
 {
 	display: flex;
 	width: 100%;
-	justify-content: flex-end;
-	flex-wrap: wrap;
+	justify-content: flex-end;	
 }
 .headerlien
 {
@@ -35,15 +32,12 @@ nav
 	padding-right: 80px;
 	text-decoration: none;
 	font-weight: bold;
-
+	color: #0065FC;
 }
 .titre
-{
-	
+{	
 	font-size: 24px;
 	font-weight: bold;
-	
-
 }
 .soustitre
 {
@@ -54,6 +48,7 @@ nav
 .lieu
 {
 	display: flex;
+	flex-wrap: wrap;
 	width: 35%;
 	justify-content: flex-start;
 }
@@ -61,7 +56,7 @@ nav
 {
 	display: flex;
 	background-color: #DEEBFF;
-	width: 35px;
+	width: 50px;
 	height: 45px;
 	font-size: 18px;
 	align-items: center;
@@ -69,7 +64,6 @@ nav
 	border: 3px solid #DEEBFF;
 	border-bottom-left-radius: 12px;
 	border-top-left-radius: 12px;
-
 }
 input
 {
@@ -79,7 +73,7 @@ input
 	border-left: none;
 	font-weight: bold;
 	padding-left: 8px;
-	width: 230px;
+	width: 300px;
 }
 .buttonrecherche
 {
@@ -100,18 +94,17 @@ input
 .filtrebuttonicon
 {
 	display: flex;
-	width: 55%;
+	flex-wrap: wrap;
+	width: 65%;
 	margin-top: 20px;
 	align-items:center;
 	justify-content: space-between;
-	align-content: flex-start;
-	
+	background-color: yellow;
 }
 button
 {
 	border: 2px solid #DEEBFF;
 	height: 43px;
-	width: 200px;
 	border-top-right-radius: 45px;
 	border-bottom-right-radius: 45px;
 	font-weight: bold;
@@ -123,7 +116,6 @@ button
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 	width: 150px;
 	padding-right: 55px;
 	text-align: center;
@@ -135,7 +127,6 @@ button
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 	width: 120px;
 	padding-right: 68px;
 	text-align: center;
@@ -146,8 +137,7 @@ button
 {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	
+	align-items: center;	
 	width: 140px;
 	padding-right: 50px;
 	text-align: center;
@@ -160,25 +150,16 @@ button
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	padding-right: 140px;
 	height: 52px;
 	width: 200px;
-	background-color: yellow;
-	
-
-
-	
+	padding-right: 150px;
 }
-.titrefiltre
-{
-	margin-right: 20px;
-}
+
 .filtrebuttonicon button:hover 
 {
 	cursor: pointer;
-	box-shadow: 3px 3px 0 #DEEBFF;
+	box-shadow: 3px 3px 5px #DEEBFF;
 }
-
 .filtreicon .fas
 {
 	display: flex;
@@ -192,4 +173,127 @@ button
 	width: 46px;
 	height: 46px;
 	background-color: #DEEBFF;
+}
+.iconinfo .fas
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #0065FC;
+	border: 3px solid #DEEBFF;
+	height: 40px;
+	width: 40px;
+	border-radius: 160px;
+	margin-right: 15px;
+}
+.iconinfo
+{
+	display: flex;
+	justify-content: flex-start;
+}
+h2
+{
+	display: flex;
+	width: 90%;
+	margin-left: 30px;
+}
+.listhebergmars
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+	background-color: #f2f2f2;
+	float: left;
+	width: 62%;
+	height: auto;
+	border-radius: 15px;
+}
+.image
+{
+	width: 230px;
+	height: 120px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+.plus
+{
+	display: flex;
+	align-items: center;
+	margin-left: 25px;
+	font-weight: bold;
+}
+.notation
+{
+	color: #0065FC;
+}
+.legend
+{
+	border: 5px solid white;
+	background-color: white;
+	font-size: 14px;
+	border-radius: 15px;
+}
+figcaption 
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.lespopul
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+	background-color: #f2f2f2;
+	float: right;
+	width: 34%;
+	height: auto;
+	border-radius: 15px;
+}
+.titrepopul 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+}
+.graph
+{
+	display: flex;
+	font-size: 24px;
+	align-items: center;	
+}
+footer
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+	background-color: #f2f2f2;
+	text-decoration: none;
+}
+.footer
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	width:70%;
+	text-decoration: none;
+}
+a, ul
+{
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	line-height: 2em;
+}
+li:hover
+{
+	text-decoration: underline;
 }

@@ -15,24 +15,37 @@ body, html, input, button
 {
 	font-family: Raleway, sans-serif;
 }
+.logoheader
+{
+	display: flex;
+	align-content: flex-start;
+	flex-direction: row;
+	width: 60%;
+}
 .header
 {
 	display: flex;
 	justify-content: space-around;
 }
-nav
+.header nav
 {
 	display: flex;
-	width: 100%;
-	justify-content: flex-end;	
+	width: 40%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: space-around;	
+	align-items: flex-end;
 }
 .headerlien
 {
-	padding-top: 15px;
-	padding-right: 80px;
 	text-decoration: none;
 	font-weight: bold;
 	color: #0065FC;
+}
+.headerlien:hover
+{
+	text-decoration: underline;
+	text-shadow: 0.1px 0.1px 0.2px #0095FC;
 }
 .titre
 {	
@@ -67,13 +80,15 @@ nav
 }
 input
 {
+	display: inline-flex;
+	flex-wrap: wrap;
 	border: 2px solid #DEEBFF;
 	height: 45px;
 	border-right: none;
 	border-left: none;
 	font-weight: bold;
 	padding-left: 8px;
-	width: 300px;
+	width: 150px;
 }
 .buttonrecherche
 {
@@ -86,6 +101,7 @@ input
 	color: white;
 	font-weight: bold;
 	font-size: 14px;
+	letter-spacing: 0.1em;
 }
 .buttonrecherche:hover
 {
@@ -95,11 +111,11 @@ input
 {
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: row;
 	width: 65%;
 	margin-top: 20px;
 	align-items:center;
 	justify-content: space-between;
-	background-color: yellow;
 }
 button
 {
@@ -144,6 +160,7 @@ button
 	height: 52px;
 	margin: 20px;
 }
+
 .btndog
 {
 	display: flex;
@@ -151,10 +168,22 @@ button
 	align-content: center;
 	align-items: center;
 	height: 52px;
-	width: 200px;
-	padding-right: 150px;
+	width: 230px;
+	background-color: red;
 }
-
+.filtreicondog
+{
+	display: flex;
+	align-items: center;
+	border: 3px solid #DEEBFF;
+	font-size: 14px;
+	color: #0065FC;
+	
+	border-radius: 160px;
+	width: 46px;
+	height: 46px;
+	background-color: #DEEBFF;
+}
 .filtrebuttonicon button:hover 
 {
 	cursor: pointer;
@@ -194,8 +223,14 @@ button
 h2
 {
 	display: flex;
-	width: 90%;
+	justify-content: flex-start;
+	width: 80%;
 	margin-left: 30px;
+}
+.corps
+{
+	display: flex;
+	justify-content: space-between;
 }
 .listhebergmars
 {
@@ -206,7 +241,7 @@ h2
 	align-items: flex-start;
 	background-color: #f2f2f2;
 	float: left;
-	width: 62%;
+	width: 65%;
 	height: auto;
 	border-radius: 15px;
 }
@@ -221,7 +256,7 @@ h2
 {
 	display: flex;
 	align-items: center;
-	margin-left: 25px;
+	margin-left: 35px;
 	font-weight: bold;
 }
 .notation
@@ -235,22 +270,15 @@ h2
 	font-size: 14px;
 	border-radius: 15px;
 }
-figcaption 
-{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-}
 .lespopul
 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	align-content: flex-start;
+	align-content: space-around;
 	align-items: flex-start;
 	background-color: #f2f2f2;
-	float: right;
-	width: 34%;
+	width: 32%;
 	height: auto;
 	border-radius: 15px;
 }
@@ -259,13 +287,60 @@ figcaption
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	width: 100%;
+	flex-wrap: wrap;
+	width: 70%;
+	height: auto;
 }
 .graph
 {
-	display: flex;
 	font-size: 24px;
-	align-items: center;	
+}
+.photo
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: space-around;
+	width: 150px;
+	height: 150px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.photo1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 5px solid white;
+	background-color: white;
+	border-radius: 15px 15px;
+}
+.photo2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 5px solid white;
+	background-color: white;
+	border-radius: 15px 15px;
+}
+.photo3
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 5px solid white;
+	background-color: white;
+	border-radius: 15px 15px;
+}
+.photodescript
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-between;
+
 }
 footer
 {
@@ -296,4 +371,37 @@ a, ul
 li:hover
 {
 	text-decoration: underline;
+}
+.activites
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: auto;
+	height: auto;
+}
+.activitemars
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.activitemars h3
+{
+
+	font-size: 16px;
+	background-color: white;
+	box-shadow: 3px 3px 3px 2px #f2f2f2;
+	border: 10px solid white;
+}
+
+.imgall
+{
+	display: flex;
+	justify-content: space-between;
+	align-content: space-around;
+	width: 300px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 }

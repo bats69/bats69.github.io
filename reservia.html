@@ -12,7 +12,9 @@
 									<!--header-->	
 
 	<header class="header">
+		<div class="logoheader">
 		<img class="logo" src="logo/Reservia.svg">
+		</div>
 		<nav>
 			<a class="headerlien" href="#hebergement" data-active="true">Hébergements</a>
 			<a class="headerlien" href="#activite" data-active="true">Activités</a>
@@ -37,9 +39,7 @@
 					<label for="recherchedulieu"></label>
 					<input type="text" placeholder="Marseille, France" id="recherchedulieu">
 				</div>
-
-				
-					<button class="buttonrecherche">Rechercher</button>
+					<button class="buttonrecherche" disabled="true">Rechercher</button>
 				</p>
 		</form>
 			<span class="filtrebuttonicon">
@@ -58,7 +58,7 @@
 	</main>
 
 								<!--les hebergements-->
-
+<div class="corps">
 	<section class="listhebergmars">
 		<h2 id="hebergement">Hébergements à Marseille</h2>
 		<p class="imgcontains">
@@ -176,7 +176,7 @@
 				<span class="graph"><i class="fas fa-chart-line"></i></span>
 			</div>
 			<figure class="photo1">
-				<a href="#"><img src="hebergements/4_small/emileguillemot.jpg" alt="un lit double avec porte fenêtre et miroirs au mur et plafond"></a>
+				<a href="#"><img class="photo" src="hebergements/4_small/emileguillemot.jpg" alt="un lit double avec porte fenêtre et miroirs au mur et plafond"></a>
 				<figcaption class="photodescript">
 					<h3 class="photodescripttitre">Hôtel Le soleil du matin</h3>
 						<p class="prixmini">Nuit à partir de <strong class="prix">128€</strong></p>
@@ -191,7 +191,7 @@
 			</figure>
 
 			<figure class="photo2">
-				<a href="#"><img src="hebergements/4_small/awcreative.jpg" alt="chambre avec un lit double une fenêtre et climatisation"></a>
+				<a href="#"><img class="photo" src="hebergements/4_small/awcreative.jpg" alt="chambre avec un lit double une fenêtre et climatisation"></a>
 				<figcaption class="photodescript">
 					<h3 class="photodescripttitre">Au cœur de l'eau Chambres d'hôtes</h3>
 						<p class="prixmini">Nuit à partir de <strong class="prix">71€</strong></p>
@@ -206,7 +206,7 @@
 			</figure>
 
 			<figure class="photo3">
-				<a href="#"><img src="hebergements/4_small/febrianzakaria2.jpg" alt="chambre simple avec un lit double"></a>
+				<a href="#"><img class="photo" src="hebergements/4_small/febrianzakaria2.jpg" alt="chambre simple avec un lit double"></a>
 				<figcaption class="photodescript">
 					<h3 class="photodescripttitre">Hôtel Tout bleu et Blanc</h3>
 						<p class="prixmini">Nuit à partir de <strong class="prix">68€</strong></p>
@@ -220,36 +220,36 @@
 				</figcaption>
 			</figure>
 		</aside>
-
+</div>
 								<!--activites-->
 
 		<section class="activites">
-				<h3 class="activitemars" id="activite">Activités à Marseille</h3>
+				<h2 class="activitemars" id="activite">Activités à Marseille</h2>
 					<div class="imgport">
-						<a href="#"><img src="activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vue du vieux port de Marseille"></a>
+						<a href="#i"><img class="imgall" src="activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vue du vieux port de Marseille"></a>
 							<h3 class="titreimgactivite">Vieux Port</h3>
 					</div>
 					<div class="img1et2">
 						<span class="imgfort">
-							<a href="#"><img src="paul-hermann-QFTrLdQIRhI-unsplash.jpg"></a>
+							<a href="#i"><img class="imgall" src="activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"></a>
 								<h3 class="titreimgactivite">Fort de Pomègues</h3>
 						</span>
 						<span class="imgiles">
-							<a href="#"><img src="activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"></a>
+							<a href="#i"><img class="imgall" src="activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"></a>
 								<h3 class="titreimgactivite">Îles du Frioul</h3>
 						</span>
 					</div>
 					<div class="imgparc">
-						<a href="a#"><img src="activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"></a>
+						<a href="#i"><img class="imgall" src="activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"></a>
 							<h3 class="titreimgactivite">Parc National des Calanques</h3>
 					</div>
 					<div class="img3et4">
 						<span class="imgNDG">
-							<a href="#"><img src="activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"></a>
+							<a href="#i"><img class="imgall" src="activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"></a>
 								<h3 class="titreimgactivite">Notre-Dame-de-la-Garde</h3>
 						</span>
 						<span class="imglongchamp">
-							<a href="#"><img src="activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"></a>
+							<a href="#"><img class="imgall" src="activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"></a>
 								<h3 class="titreimgactivite">Parc Longchamp</h3>
 						</span>
 
@@ -260,18 +260,18 @@
 		<footer >
 	<section class="footer">
 		
-			<ul><h3>A propos</h3>
+			<ul class="propo"><h3>A propos</h3>
 				<li><a href="fonctionnement">Fonctionnement du site</a></li>
 				<li><a href="condition">Conditions générales de vente</a></li>
 				<li><a href="Données">Données et confidentialité</a></li>
 			</ul>
 		
-			<ul><h3>Nos hébergements</h3>
+			<ul class="herberg"><h3>Nos hébergements</h3>
 				<li><a href="Charte">Charte qualité</a></li>
 				<li><a href="Soumettre">Soumettre votre hotel</a></li>
 			</ul>
 		
-			<ul><h3>Assistance</h3>
+			<ul class="assist"><h3>Assistance</h3>
 				<li><a href="centre">Centre d'aide</a></li>
 				<li><a href="contact">Nous contacter</a></li>
 			</ul>

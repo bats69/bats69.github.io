@@ -1,5 +1,4 @@
-
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 @font-family
 {
 	font-family: 'Raleway-Regular';
@@ -107,148 +106,10 @@ input
 {
 	cursor: pointer;
 }
-.filtrebuttonicon
-{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	width: 65%;
-	margin-top: 20px;
-	align-items:center;
-	justify-content: space-between;
-}
-button
-{
-	border: 2px solid #DEEBFF;
-	height: 43px;
-	border-top-right-radius: 45px;
-	border-bottom-right-radius: 45px;
-	font-weight: bold;
-	border-left: none;
-	background-color: white;
-}
-.btneco
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 150px;
-	padding-right: 55px;
-	text-align: center;
-	height: 52px;
-	margin: 20px;
-}
-.btnfam
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 120px;
-	padding-right: 68px;
-	text-align: center;
-	height: 52px;
-	margin: 20px;
-}
-.btnlove
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;	
-	width: 140px;
-	padding-right: 50px;
-	text-align: center;
-	height: 52px;
-	margin: 20px;
-}
 
-.btndog
-{
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	height: 52px;
-	width: 230px;
-	background-color: red;
-}
-.filtreicondog
-{
-	display: flex;
-	align-items: center;
-	border: 3px solid #DEEBFF;
-	font-size: 14px;
-	color: #0065FC;
-	
-	border-radius: 160px;
-	width: 46px;
-	height: 46px;
-	background-color: #DEEBFF;
-}
-.filtrebuttonicon button:hover 
-{
-	cursor: pointer;
-	box-shadow: 3px 3px 5px #DEEBFF;
-}
-.filtreicon .fas
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: 3px solid #DEEBFF;
-	font-size: 14px;
-	color: #0065FC;
-	margin-right: 17px;
-	border-radius: 160px;
-	width: 46px;
-	height: 46px;
-	background-color: #DEEBFF;
-}
-.iconinfo .fas
-{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: #0065FC;
-	border: 3px solid #DEEBFF;
-	height: 40px;
-	width: 40px;
-	border-radius: 160px;
-	margin-right: 15px;
-}
-.iconinfo
-{
-	display: flex;
-	justify-content: flex-start;
-}
-h2
-{
-	display: flex;
-	justify-content: flex-start;
-	width: 80%;
-	margin-left: 30px;
-}
-.corps
-{
-	display: flex;
-	justify-content: space-between;
-}
-.listhebergmars
-{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-content: flex-start;
-	align-items: flex-start;
-	background-color: #f2f2f2;
-	float: left;
-	width: 65%;
-	height: auto;
-	border-radius: 15px;
-}
 .image
 {
-	width: 230px;
-	height: 120px;
+	
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
 }
@@ -270,78 +131,7 @@ h2
 	font-size: 14px;
 	border-radius: 15px;
 }
-.lespopul
-{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-content: space-around;
-	align-items: flex-start;
-	background-color: #f2f2f2;
-	width: 32%;
-	height: auto;
-	border-radius: 15px;
-}
-.titrepopul 
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	flex-wrap: wrap;
-	width: 70%;
-	height: auto;
-}
-.graph
-{
-	font-size: 24px;
-}
-.photo
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-content: space-around;
-	width: 150px;
-	height: 150px;
-	border-top-left-radius: 15px;
-	border-bottom-left-radius: 15px;
-}
-.photo1
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	border: 5px solid white;
-	background-color: white;
-	border-radius: 15px 15px;
-}
-.photo2
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	border: 5px solid white;
-	background-color: white;
-	border-radius: 15px 15px;
-}
-.photo3
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	border: 5px solid white;
-	background-color: white;
-	border-radius: 15px 15px;
-}
-.photodescript
-{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	justify-content: center;
-	align-content: space-between;
 
-}
 footer
 {
 	display: flex;
@@ -389,13 +179,11 @@ li:hover
 }
 .activitemars h3
 {
-
 	font-size: 16px;
 	background-color: white;
 	box-shadow: 3px 3px 3px 2px #f2f2f2;
 	border: 10px solid white;
 }
-
 .imgall
 {
 	display: flex;

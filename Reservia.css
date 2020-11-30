@@ -80,7 +80,6 @@ body, html, input, button
 input
 {
 	display: inline-flex;
-	flex-wrap: wrap;
 	border: 2px solid #DEEBFF;
 	height: 45px;
 	border-right: none;
@@ -101,12 +100,87 @@ input
 	font-weight: bold;
 	font-size: 14px;
 	letter-spacing: 0.1em;
+	margin-bottom: 30px;
 }
 .buttonrecherche:hover
 {
 	cursor: pointer;
 }
+.filtrebuttonicon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 65%;
+}
+.filtrebuttonicon i
+{
+	display: flex;
+	justify-content: flex-start;
+	background-color: red;
+	
+}
+.buttonfiltreeco
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	align-content: flex-start;
+	width: 150px;
+	height: 3.5em;
+	font-weight: bold;
+	background-color: blue;
+	border: 3px solid #DEEBFF;
+	
+}
 
+.buttonfiltrefam
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 130px;
+	height: 3.5em;
+	font-weight: bold;
+	background-color: white;
+	border: 3px solid #DEEBFF;
+	border-radius: 25px 25px;
+}
+.buttonfiltrerom
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 150px;
+	height: 3.5em;
+	font-weight: bold;
+	background-color: white;
+	border: 3px solid #DEEBFF;
+	border-radius: 25px 25px;
+}
+.buttonfiltreanim
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 190px;
+	height: 3.5em;
+	font-weight: bold;
+	background-color: white;
+	border: 3px solid #DEEBFF;
+	border-radius: 25px 25px;
+}
+span i
+{
+	border: 3px solid black;
+	width: 30px;
+}
 .image
 {
 	border-top-right-radius: 15px;
@@ -161,34 +235,40 @@ li:hover
 {
 	text-decoration: underline;
 }
-.activites
-{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	width: auto;
-	height: auto;
-}
+
 .activitemars
 {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
+	
 }
-.activitemars h3
+h4
 {
 	font-size: 16px;
 	background-color: white;
 	box-shadow: 3px 3px 3px 2px #f2f2f2;
 	border: 10px solid white;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 .imgall
 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-content: space-around;
-	width: 300px;
+	width: 100%;
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
+}
+.galleryactiivitymars
+{
+	display: flex;
+	align-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 30px;
 }

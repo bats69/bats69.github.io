@@ -155,14 +155,14 @@ body
 {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 #hebergement
 {
 	display: flex;
 	justify-content: flex-start;
-	padding-left: 20px;
+	padding-left: 25px;
 	width: 100%;
-	height: 2em;
 	font-size: 18px;
 }
 .listhebergmars
@@ -170,19 +170,20 @@ body
 	display: flex;
 	align-content: space-around;
 	align-items: flex-start;
+	align-content: space-around;
 	flex-wrap: wrap;
 	width: 880px;
-	height: 640px;
-	
+	min-height: 600px;
+	height: auto;
 	border-radius: 15px;
 	background-color: #f2f2f2;
 }
 .imagecontains
 {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-content: space-around;
-	flex-wrap: wrap;
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
 }
@@ -223,6 +224,9 @@ body
 }
 .notation
 {
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-start;
 	color: #0065FC;
 }
 .lespopul
@@ -233,6 +237,7 @@ body
 	justify-content: space-around;
 	align-content: center;
 	width: 30%;
+	height: auto;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 }
@@ -245,7 +250,8 @@ body
 	margin-left: 10px;
 	margin-right: 10px;
 	width: 80%;
-	height: 1.5em;
+	
+	font-size: 18px;
 }
 .graph
 {
@@ -281,10 +287,11 @@ body
 .photo3
 {
 	display: flex;
+	
 	flex-direction: row;
 	border: 4px solid white;
 	width: 80%;
-	margin-left: 25px;
+	margin-left: 15px;
 	background-color: white;
 	border-radius: 15px;
 	box-shadow: 2px 2px 1px 1px silver;
@@ -297,8 +304,9 @@ body
 	flex-direction: column;
 	justify-content: flex-start;
 	align-content: flex-start;
-	margin-left: 25px;
+	margin-left: 15px;
 	height: 130px;
+	line-height: 1.5em;
 }
 h4
 {

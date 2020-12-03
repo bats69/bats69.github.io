@@ -9,9 +9,9 @@
          url('police/Raleway-Regular-webfont.ttf') format('truetype'),
          url('police/Raleway-Regular-webfont.svg#Raleway-Regular') format('svg');
 }
-body, .recherchedulieu
+body, .searchlocations
 {
-	
+	margin: 0px;
 	font-family: Raleway, sans-serif;
 }
 .logoheader
@@ -21,14 +21,14 @@ body, .recherchedulieu
 	flex-direction: row;
 	width: 60%;
 }
-.header
+.containersheader
 {
 	display: flex;
 	justify-content: space-around;
 	margin-left: 8%;
 	margin-right: 8%;
 }
-.header nav
+.containersheader nav
 {
 	display: flex;
 	width: 35%;
@@ -36,35 +36,38 @@ body, .recherchedulieu
 	flex-wrap: wrap;
 	align-content: space-around;		
 }
-.headerlienheb, .headerlienins
+.headerlinkheb, .headerlinkins
 {
 	text-decoration: none;
 	color: #0065FC;
 }
-.menu
+.headerlinkact:hover,
+.headerlinkheb:hover,
+.headerlinkins:hover
+{
+ 	border-top: 2px solid #0065FC;
+ 	padding-top: auto;
+}
+.main
 {
 	margin-left: 8%;
 	margin-right: 8%;
 }
-.titre
+.titlesearch
 {	
 	font-size: 24px;
 	font-weight: bold;
 }
-.soustitre
+.subtitle
 {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 }
-.lieu
+.containerslocationssearch
 {
 	display: flex;
 	height: 50px;
-}
-.search
-{
-	display: inline;
 }
 .iconmap, .firstbtnsearch
 {
@@ -90,26 +93,22 @@ body, .recherchedulieu
 	width: 100px;
 	border: 1px solid #0065FC;
 }
-.recherchedulieu
+.searchlocations
 {
 	padding: 14px;
 	border: 1px solid #f2f2f2;
 	width: 210px;
 	font-size: 19px;
 	outline: none;
-	font
+	font-weight: bold;
 }
-.buttonrecherche:hover
-{
-	cursor: pointer;
-}
-.filtrebuttonicon
+.filtersbuttonicon
 {
 	display: flex;
 	align-items:center;
 	margin-top: 30px;	
 }
-.filtreicon
+.filtericon
 {
 	display: flex;
 	align-items: center;
@@ -120,7 +119,7 @@ body, .recherchedulieu
 	font-weight: bold;
 	cursor: pointer;
 }
-.filtreicon i
+.filtericon i
 {
 	color: #0065FC;
 	background-color: #DEEBFF;
@@ -135,8 +134,8 @@ body, .recherchedulieu
 	text-align: center;
 	cursor: pointer;
 }
-.filtreicon:hover
-{
+.filtericon:hover
+{  
 	transform: scale(1.1);
 }
 .iconinfo
@@ -157,7 +156,7 @@ body, .recherchedulieu
 	width: 30px;
 	margin-right: 10px;
 }
-.corps
+.containerslocations
 {
 	display: flex;
 	justify-content: space-between;
@@ -173,7 +172,7 @@ body, .recherchedulieu
 	width: 100%;
 	font-size: 18px;
 }
-.listhebergmars
+.listhebergmarswrap
 {
 	display: flex;
 	align-content: space-around;
@@ -186,7 +185,7 @@ body, .recherchedulieu
 	border-radius: 15px;
 	background-color: #f2f2f2;
 }
-.imagecontains
+.picturecontains
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -195,7 +194,11 @@ body, .recherchedulieu
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
 }
-.imgdescript
+.titleimgscript
+{
+	font-weight: bold;
+}
+.picturedescript
 {
 	margin-top: -5px;
 	padding-left: 8px;
@@ -207,7 +210,7 @@ body, .recherchedulieu
 	align-items: center;
 	color: #cfcfcf;
 }
-.legend
+.picturewrapiconlegend
 {
 	display: flex;
 	flex-direction: column;
@@ -220,7 +223,7 @@ body, .recherchedulieu
 	font-size: 14px;
 	line-height: 1.5em;
 }
-.legend:hover
+.picturewrapiconlegend:hover
 {
 	transform: scale(1.1);
 	cursor: pointer;
@@ -241,19 +244,19 @@ body, .recherchedulieu
 {
 	text-decoration: underline;
 }
-.notation
+.iconstarswrap
 {
 	display: flex;
 	margin-top: 4px;
 	color: #0065FC;
 }
-.notationpop
+.iconwrapstars
 {
 	display: flex;
 	margin-top: 40px;
 	color: #0065FC;
 }
-.lespopul
+.mostpopularwrap
 {
 	display: flex;
 	flex-direction: column;
@@ -265,7 +268,7 @@ body, .recherchedulieu
 	background-color: #F2F2F2;
 	border-radius: 15px;
 }
-.popul
+.titlepopular
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -282,7 +285,7 @@ body, .recherchedulieu
 	display: flex;
 	justify-content: flex-end;
 }
-.photo1
+.picture1
 {
 	display: flex;
 	flex-direction: row;
@@ -297,7 +300,7 @@ body, .recherchedulieu
 	cursor: pointer;
 	margin-top: -10px;
 }
-.photo2
+.picture2
 {
 	display: flex;
 	flex-direction: row;
@@ -311,7 +314,7 @@ body, .recherchedulieu
 	font-size: 14px;
 	cursor: pointer;
 }
-.photo3
+.picture3
 {
 	display: flex;
 	flex-direction: row;
@@ -325,7 +328,14 @@ body, .recherchedulieu
 	font-size: 14px;
 	cursor: pointer;
 }
-.photodescripttitre
+.picture1:hover,
+.picture2:hover,
+.picture3:hover
+{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.picturedescripttitle
 {
 	margin-left: 15px;
 	height: 130px;
@@ -412,7 +422,7 @@ footer
 	text-decoration: none;
 	margin-top: 50px;
 }
-.footer
+.containersabout
 {
 	display: flex;
 	flex-wrap: wrap;

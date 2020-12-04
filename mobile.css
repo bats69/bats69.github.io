@@ -1,0 +1,161 @@
+@media all and (max-device-width: 600px)
+{
+	.containersheader
+	{
+		display: flex;
+		flex-direction: row;
+	}
+	.logoheader, .headerlinkins
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.headerlinkact,
+	.headerlinkheb
+	{
+		display: flex;
+		justify-content: flex-end;
+		font-size: 0.9em;
+
+	}
+	.searchlocations
+	{
+		margin-right: -40px;
+	}
+	.firstbtnsearch
+	{
+		max-width: 30px;
+		border-radius: 15px 15px;
+		margin-right: 40px;
+	}
+	.search
+	{
+		display: none;
+	}
+	.firstbtnsearch .fas
+	{
+		color: white;
+		visibility: visible;
+	}
+	.titlesearch
+	{
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+		font-size: 1.5em;
+	}
+	.subtitle
+	{
+		line-height: 3em;
+		font-size: 0.7em;
+	}
+	.titlefilters
+	{
+		display: inline-block;
+		width: 100%;
+    	margin-top: 15px;
+    	margin-left: 4px;
+	}
+	.filtersbuttonicon
+	{
+		
+    	display: flex;
+    	margin-top: 0px;
+    	flex-wrap: wrap;
+    	margin-left: -30px;
+	}
+	.containericoninfo
+	{
+		display: flex;
+		margin-top: 30px;
+		font-size: 0.9em;
+	}
+	.containericoninfo i
+	{
+		margin-right: 15px;
+		width: 40px;
+	}
+	.textinfowrap
+	{
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: nowrap;
+	}
+	.containerslocations
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-around;
+		align-content: space-between;
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+	}
+	.titlepopular 
+	{
+		display: flex;
+		justify-content: space-between;
+		width:90%; 
+		
+	}
+	.mostpopularwrap
+	{
+		display: flex;
+		align-content: space-around;
+		justify-content: space-around;
+		width: 100%;
+		height: 550px;
+		margin-right: 0px;
+		border-radius: 0px 0px;
+	}
+	.picture1, .picture2, .picture3
+	{
+		width: 85%;
+	}
+	.listhebergmarswrap
+	{
+		display: flex;
+
+		background-color: initial;
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+	}
+	.picturewrapiconlegend
+	{
+		display: flex;
+		justify-content: center;
+		width: 85%;
+		height: auto;
+		margin-left: 25px;
+	}
+	.picture
+	{
+		width: 100%;
+	}
+	.plus
+	{
+		display: flex;
+		width: 100%;
+		align-content: space-between;
+	}
+	.galleryactivitymars
+	{
+		margin-left: 15px;
+		height: auto;	
+	}
+	.imgall
+	{
+		height: 140px;
+	}
+	.imgport, .imgfort, .imgiles, .imgparc,
+	.imgNDG, .imglognchamp
+	{
+		margin-top: 20px;
+	}
+	footer
+	{
+		height: auto;
+	}
+}	

@@ -6,7 +6,8 @@
 			<meta name="viewport" content="width=device-width" />
 			<link href = "https://fonts.googleapis.com/css2? family = Open + Sans & display = swap" rel = "feuille de style">
 			<link rel="stylesheet" href="css/all.css">
-			<link rel="stylesheet" media="screen and (max-width: 600px" href="mobile.css">
+			<link rel="stylesheet" media="screen and (min-width:140px) and (max-width: 600px)" href="mobile.css">
+			<link rel="stylesheet" media="screen and (min-width: 600px) and (max-width: 960px)"href="tablet.css">
 			<title>Réservia - openclassrooms</title>
 		</head>
 	<body>
@@ -14,7 +15,7 @@
 									<!--header-->	
 
 	<header class="containersheader">
-		<div class="logoheader">
+			<div class="logoheader">
 			<img class="logo" src="logo/Reservia.svg">
 			<a class="headerlinkins--mobile" href="#">S'inscrire</a>
 		</div>
@@ -60,7 +61,7 @@
 	<section class="listhebergmarswrap">
 		<h2 id="hebergement">Hébergements à Marseille</h2>
 		
-		<p class="picturecontains">	
+		<div class="picturecontains">	
 				<div class="picturewrapiconlegend">
 					<a href="#"><img class="picture" src="img/auberge-de-la-cannebiere.png" alt="un lit superposé et une fenêtre"></a><p class="picturedescript">
 							<span class="titleimgscript">Auberge la Cannebière</span><br/>
@@ -137,7 +138,7 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</span></p>
-			</div><br/></p>
+			</div><br/></div>
 			<p class="plus">Afficher plus</p>
 		
 	</section>

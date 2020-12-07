@@ -1,0 +1,115 @@
+@media all and (max-device-width: 960px)
+{
+	body
+	{
+		margin-right: 3px;
+		margin-left: 3px;
+	}
+	.containersheader
+	{
+		display: block;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.logoheader
+	{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		height: 200px;
+	}
+	.logo
+	{
+		display: flex;
+		justify-content: center;
+		margin-left: 20px;
+		height: 50px;
+	}
+	.containersheader nav
+	{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		border-bottom: 4px solid #F2F2F2;
+		margin-bottom: 50px;
+	}
+	.main
+	{
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+	.filtersbuttonicon
+	{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		width: 100%;
+	}
+	.filtericonwrap
+	{
+		display: flex;
+	}
+	.containerslocations
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-around;
+		align-content: space-between;
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+	}
+	.mostpopularwrap
+	{
+		display: flex;
+		justify-content: center;
+		width: 50%;
+		margin-left: 250px;
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.listhebergmarswrap
+	{
+		display: flex;
+		align-content: center;
+		justify-content: space-around;
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+	}
+	.picturecontains
+	{
+		display: flex;
+		justify-content: center;
+		height: auto;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.plus
+	{
+		display: flex;
+		width: 100%;
+		align-content: space-between;
+	}
+	.titleactivitymars
+	{
+		display: flex;
+		justify-content: center;
+	}
+	.imgportwrap
+	{
+		margin-bottom: 20px;
+	}
+	.imgileswrap
+	{
+		margin-bottom: 20px;
+	}
+	.containersabout
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 100%;
+	}
+
+}

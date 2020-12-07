@@ -140,9 +140,10 @@ body, .searchlocations
 	flex-wrap: wrap;
 	margin-top: 30px;	
 }
-filter-dollar i
+.filtericonwrap
 {
-	padding-right: 40px;
+	display: flex;
+	flex-direction: row;
 }
 
 .filtericon 
@@ -233,8 +234,8 @@ filter-dollar i
 {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	align-content: space-around;
+	justify-content: center;
+	align-content: center;
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
 }

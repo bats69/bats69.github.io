@@ -3,21 +3,52 @@
 	.containersheader
 	{
 		display: flex;
-		flex-direction: row;
-	}
-	.logoheader, .headerlinkins
-	{
-		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		margin:0px;
 	}
-	.headerlinkact,
-	.headerlinkheb
+	.logoheader
 	{
 		display: flex;
-		justify-content: flex-end;
-		font-size: 0.9em;
-
+		justify-content: space-between;
+		width: 100%;
+	}
+	.logo
+	{
+		margin-left: 20px;
+		height: 50px;
+	}
+	.headerlinkins--mobile
+	{
+		display: flex;
+		margin-top: 15px;
+		flex-direction: row;
+		margin-right: 20px;
+		color: #0065FC;
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+	.containersheader nav
+	{
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 100%;
+		border-bottom: 4px solid #f2f2f2;
+	}
+	
+	.headerlinkheb:hover, .headerlinkact:hover, .headerlinkins:hover
+	{
+		border-top: none;
+	}
+	.headerlinkheb:hover, .headerlinkact:hover,
+	{
+		border-bottom: 4px solid #0065FC;
+	}
+	.headerlinkins
+	{
+		display: none;
 	}
 	.searchlocations
 	{
@@ -52,18 +83,32 @@
 	}
 	.titlefilters
 	{
-		display: inline-block;
-		width: 100%;
+		display: flex;
+		justify-content: center;
     	margin-top: 15px;
-    	margin-left: 4px;
 	}
 	.filtersbuttonicon
 	{
-		
-    	display: flex;
-    	margin-top: 0px;
-    	flex-wrap: wrap;
-    	margin-left: -30px;
+		display: flex;
+		align-items: flex-start;
+		align-content: space-around;
+		justify-content: flex-start;
+    	width: 100%;	
+    	height: 250px;
+	}
+	.filtericon
+	{
+		display: flex;
+		align-content: space-around;
+		justify-content: flex-start;
+		margin-left: 0px;
+	}
+	.filtericonwrap
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
 	}
 	.containericoninfo
 	{
@@ -116,7 +161,6 @@
 	.listhebergmarswrap
 	{
 		display: flex;
-
 		background-color: initial;
 		width: 100%;
 		height: auto;
@@ -142,15 +186,43 @@
 	}
 	.galleryactivitymars
 	{
-		margin-left: 15px;
+		margin-left: 20px;
 		height: auto;	
+	}
+	.vieuxport
+	{
+		display: flex;
+		width: 100%;
+		height: 140px;
+	}
+	.imgportwrap
+	{
+		width: 91%;
+	}
+	.imgparc
+	{
+		display: none;
+	}
+	.calanquesimgwrap
+	{
+		display: flex;
+		width: 100%;
+		height: 140px;
+	}
+	.imgparcwrap
+	{
+		width: 91%;
 	}
 	.imgall
 	{
 		height: 140px;
 	}
-	.imgport, .imgfort, .imgiles, .imgparc,
-	.imgNDG, .imglognchamp
+	.imgvieuxport
+	{
+		display: none;
+	}
+	.imgportwrap, .imgfort, .imgileswrap, .imgparcwrap,
+	.imgNDG, .imglongchamp
 	{
 		margin-top: 20px;
 	}

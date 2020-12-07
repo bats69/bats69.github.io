@@ -30,6 +30,10 @@ body, .searchlocations
 	margin-left: 8%;
 	margin-right: 8%;
 }
+.headerlinkins--mobile
+{
+	display: none;
+}
 .containersheader nav
 {
 	display: flex;
@@ -38,11 +42,15 @@ body, .searchlocations
 	flex-wrap: wrap;
 	align-content: space-around;		
 }
+.headerlinknav
+{
+	display: flex;
+	flex-direction: row;
+}
 .headerlinkins
 {
 	display: flex;
 	align-items: center;
-	
 	color: #0065FC;
 	height: 50px;
 }
@@ -129,13 +137,19 @@ body, .searchlocations
 {
 	display: flex;
 	align-items:center;
+	flex-wrap: wrap;
 	margin-top: 30px;	
 }
-.filtericon
+filter-dollar i
+{
+	padding-right: 40px;
+}
+
+.filtericon 
 {
 	display: flex;
 	align-items: center;
-	border: 2px solid #DEEBFF;
+	border: 2px solid #F2F2F2;
 	padding-right: 16px;
 	border-radius: 30px;
 	margin-left: 30px;
@@ -403,6 +417,28 @@ h4
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
 }
+.imgparc
+{
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	width: 100%;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+.imgvieuxport
+{
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	width: 100%;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+.calanquesimgwrap, .vieuxport
+{
+	display: none;
+}
 .titleimgactivity
 {
 	display: flex;
@@ -428,14 +464,14 @@ h4
 	margin-bottom: 30px;
 
 }
-.img1et2
+.img1et2wrap
 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-content: space-between;
 }
-.img3et4
+.img3et4wrap
 {
 	display: flex;
 	flex-direction: column;

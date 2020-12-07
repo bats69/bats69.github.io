@@ -1,4 +1,4 @@
-@media all and (max-device-width: 600px)
+@media all and (max-width: 600px) and (min-width: 140px)
 {
 	.containersheader
 	{
@@ -42,7 +42,11 @@
 	{
 		border-top: none;
 	}
-	.headerlinkheb:hover, .headerlinkact:hover,
+	.headerlinkheb:hover
+	{
+		border-bottom: 4px solid #0065FC;
+	}
+	.headerlinkact:hover
 	{
 		border-bottom: 4px solid #0065FC;
 	}

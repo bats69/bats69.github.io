@@ -1,4 +1,4 @@
-@media all and (max-device-width: 960px)
+@media all and (max-width: 960px) and (min-width: 600px)
 {
 	body
 	{
@@ -44,6 +44,16 @@
 		flex-direction: row;
 		flex-wrap: nowrap;
 		width: 100%;
+	}
+	.headerlinkheb:hover, .headerlinkact:hover, 
+	.headerlinkins:hover
+	{
+		border-top: none;
+	}
+	.headerlinkheb:hover, .headerlinkact:hover, 
+	.headerlinkins:hover
+	{
+		border-bottom: 4px solid #0065FC;
 	}
 	.filtericonwrap
 	{

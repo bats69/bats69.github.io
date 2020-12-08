@@ -197,6 +197,8 @@ body, .searchlocations
 .containericoninfo
 {
 	display: flex;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 .containerslocations
 {
@@ -260,7 +262,7 @@ body, .searchlocations
 	display: flex;
 	flex-direction: column;
 	border: 4px solid white;
-	margin-left: 30px;
+	margin-left: 15px;
 	background-color: white;
 	border-radius: 15px;
 	box-shadow: 3px 3px 5px 2px silver;
@@ -490,13 +492,23 @@ footer
 	text-decoration: none;
 	margin-top: 50px;
 }
-.containersabout
+.containerslinkwrap
 {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-between;
 	width:70%;
+	text-decoration: none;
+}
+.titlelinkwrap
+{
+	font-weight: bold;
+	font-size: 1.3em;
+	line-height: 2em;
+}
+.titlelinkwrap:hover
+{
 	text-decoration: none;
 }
 a, ul

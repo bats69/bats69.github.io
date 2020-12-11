@@ -1,0 +1,165 @@
+@media screen and (min-width: 641px) and (max-width: 1024px)
+{
+	body
+	{
+		width: 1024px;
+		margin: 0px auto;
+	}
+	.containersheader
+	{
+		display: block;
+		width: auto;
+		margin: 0px auto;
+	}
+	.logoheader
+	{
+		justify-content: space-around;
+		width: auto;
+		height: 200px;
+	}
+	.logo
+	{
+		justify-content: center;
+		margin-left: 20px;
+		height: 50px;
+	}
+	.containersheader nav
+	{
+		justify-content: space-around;
+		width: 100%;
+		border-bottom: 4px solid #F2F2F2;
+		margin-bottom: 50px;
+	}
+	
+	.filtersbuttonicon
+	{
+		flex-direction: row;
+		flex-wrap: nowrap;
+		width: 100%;
+	}
+	.headerlinkheb:hover, .headerlinkact:hover, 
+	.headerlinkins:hover
+	{
+		border-top: none;
+	}
+	.headerlinkheb:hover, .headerlinkact:hover, 
+	.headerlinkins:hover
+	{
+		border-bottom: 4px solid #0065FC;
+	}
+	.filtericonwrap
+	{
+		display: flex;
+	}
+	.containerslocations
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-around;
+		align-content: space-between;
+		width: 100%;
+		height: auto;
+		margin: 0px auto;
+	}
+	.titlepopular
+	{
+		margin-bottom: 30px;
+    	width: 100%;
+    	justify-content: space-around;
+		margin-bottom: 30px;
+	}
+	.picture1, .picture2, .picture3
+	{
+		margin-bottom: 20px;
+	}
+	.mostpopularwrap
+	{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		width: 50%;
+		margin: 0px auto;
+		height: 600px;
+		margin-bottom: 20px;
+	}
+	.listhebergmarswrap
+	{
+		
+		align-content: space-between;
+		justify-content: space-between;
+		width: 100%;
+		height: auto;
+		margin: 0px auto;
+	}
+	.picturecontains
+	{
+		display: flex;
+		justify-content: center;
+		height: auto;
+		margin: 0px auto;
+	}
+	.picture1, .picture2, .picture3
+	{
+		margin: 0px;
+	}
+	.plus
+	{
+		display: flex;
+		width: 100%;
+		align-content: space-between;
+	}
+	.containersactivity
+	{
+		margin: 0px;
+		height: auto;
+	}
+	.titleactivitymars
+	{
+		display: flex;
+		justify-content: center;
+		height: auto;
+	}
+	.imgportwrap
+	{
+		margin-bottom: 20px;
+	}
+	.imgileswrap
+	{
+		margin-bottom: 20px;
+	}
+	.containersabout
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 100%;
+		height: auto;
+	}
+	.imglongchamp
+	{
+		margin-bottom: 20px;
+	}
+	.img3et4wrap
+	{
+		justify-content: space-between;
+	}
+	.galleryactivitymars
+	{
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		margin: 0px;
+	}
+	footer
+	{
+		flex-wrap: nowrap;
+		width: auto;
+		margin: 0px auto;
+		height: auto;
+	}
+	.containerslinkwrap
+	{
+		width: auto;
+	}
+	
+
+}

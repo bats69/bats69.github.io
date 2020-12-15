@@ -1,9 +1,10 @@
-@media screen and (max-device-width: 640px)
+@media screen and (max-width: 767px)
 {
 	body
 	{
-		width: 640px;
+		max-width: 767px;
 		margin: 0px;
+		zoom:0;
 	}
 	.containersheader
 	{

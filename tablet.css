@@ -2,7 +2,7 @@
 { 
 	body
 	{
-		width: 1112px;
+		max-width: 1112px;
 		height: auto;
 		margin: 0px auto;
 	}
@@ -37,8 +37,8 @@
 	.filters-button-icon
 	{
 		flex-direction: row;
-		flex-wrap: nowrap;
-		width: 100%;
+		flex-wrap: wrap;
+		width: auto;
 	}
 	.header-link-heb:hover, .header-link-act:hover, 
 	.header-link-ins:hover

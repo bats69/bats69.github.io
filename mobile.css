@@ -6,12 +6,12 @@
 		margin: 0px;
 
 	}
-	.containersheader
+	.containers-header-wrap
 	{
 		flex-direction: column;
 		margin: 0px;
 	}
-	.logoheader
+	.logo-header
 	{
 		justify-content: space-around;
 		width: 100%;
@@ -20,7 +20,7 @@
 	{
 		height: 80px;
 	}
-	.headerlinkins--mobile
+	.header-link-ins--mobile
 	{
 		display: flex;
 		margin-top: 15px;
@@ -29,7 +29,7 @@
 		font-weight: bold;
 		font-size: 1.8em;
 	}
-	.containersheader nav
+	.containers-header-wrap nav
 	{
 		justify-content: space-around;
 		flex-direction: row;
@@ -38,33 +38,33 @@
 		width: 100%;
 		border-bottom: 4px solid #f2f2f2;
 	}
-	.headerlinknav
+	.header-link-nav
 	{
 		font-size: 1.8em;
 	}
-	.headerlinkheb:hover, .headerlinkact:hover, .headerlinkins:hover
+	.header-link-heb:hover, .header-link-act:hover, .header-link-ins:hover
 	{
 		border-top: none;
 	}
-	.headerlinkheb:hover
+	.header-link-heb:hover
 	{
 		border-bottom: 4px solid #0065FC;
 	}
-	.headerlinkact:hover
+	.header-link-act:hover
 	{
 		border-bottom: 4px solid #0065FC;
 	}
-	.headerlinkins
+	.header-link-ins
 	{
 		display: none;
 	}
-	.searchlocations
+	.search-locations
 	{
 		margin-right: -10px;
 		font-size: 25px;
 		width: 400px;
 	}
-	.firstbtnsearch
+	.first-btn-search
 	{
 		font-size: x-large;
 		padding-top: 27px;
@@ -75,13 +75,13 @@
 	{
 		display: none;
 	}
-	.firstbtnsearch .fas
+	.first-btn-search .fas
 	{
 		color: white;
 		display: flex;
 		justify-content: center;
 	}
-	.titlesearch
+	.title-search
 	{
 		display: flex;
 		justify-content: flex-start;
@@ -93,12 +93,12 @@
 		line-height: 3em;
 		font-size: 0.7em;
 	}
-	.containerslocationssearch
+	.containers-locations-search
 	{
 		height: 80px;
 		justify-content: center;
 	}
-	.iconmap
+	.icon-map
 	{
 		width: 60px;
     	border-top-left-radius: 25px;
@@ -106,17 +106,17 @@
     	padding-top: 22px;
     	font-size: x-large;
 	}
-	.firstbtnsearch
+	.first-btn-search
 	{
 		width: 80px;
 	}
-	.titlefilters
+	.title-filters
 	{
 		display: flex;
 		justify-content: center;
     	margin-top: 15px;
 	}
-	.filtersbuttonicon
+	.filters-button-icon
 	{
 		display: flex;
 		flex-direction: column;
@@ -126,11 +126,11 @@
     	width: 100%;	
     	height: 400px;
 	}
-	.titlefilters
+	.title-filters
 	{
 		font-size: 28px;
 	}
-	.filtericon
+	.filter-icon
 	{
 		margin-left: 0px;
     	height: 75px;
@@ -138,40 +138,40 @@
     	border-radius: 40px;
     	font-size: 1.4em;
 	}
-	.filtericon i
+	.filter-icon i
 	{
 		padding: 30px;
     	display: flex;
     	justify-content: center;
 	}
-	.filtericonwrap
+	.filter-icon-wrap
 	{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		width: 90%;
 	}
-	.containericoninfo
+	.container-icon-info
 	{
 		display: flex;
 		margin-top: 30px;
 		font-size: 1.5em;
 	}
-	.containericoninfo i
+	.container-icon-info i
 	{
 		margin-right: 15px;
 		width: 50px;
     	height: 40px;
     	font-size: smaller;
 	}
-	.textinfowrap
+	.text-info-wrap
 	{
 		display: flex;
 		justify-content: flex-start;
 		flex-wrap: nowrap;
 		margin-top: 10px;
 	}
-	.containerslocations
+	.containers-locations
 	{
 		display: flex;
 		flex-direction: column-reverse;
@@ -185,16 +185,16 @@
 	{
 		height: 200px;
 	}
-	.picturedescript
+	.picture-descript
 	{
 		font-size: 1.8em;
 		margin-top: auto;
 	}
-	.picturewrapiconlegend
+	.picture-wrap-icon-legend
 	{
 		border-radius: 30px;
 	}
-	.titlepopular 
+	.title-popular 
 	{
 		display: flex;
 		justify-content: space-between;
@@ -202,7 +202,7 @@
 		font-size: 28px;
 		margin-bottom: 40px;
 	}
-	.mostpopularwrap
+	.most-popular-wrap
 	{
 		display: flex;
 		flex-wrap: wrap;
@@ -227,7 +227,7 @@
     	margin-left: 5px;
     	margin-top: 5px;
 	}
-	.picturedescripttitle
+	.picture-descript-title
 	{
 		margin-top: 8px;
     	font-size: 1.8em;
@@ -235,7 +235,7 @@
     	margin-bottom: 0px;
     	height: 170px;
 	}
-	.iconwrapstars
+	.icon-wrap-stars
 	{
 		margin-top: 30px;
     	font-size: 18px;
@@ -245,7 +245,7 @@
 		font-size: 28px;
 		margin-left: 0px;
 	}
-	.listhebergmarswrap
+	.list-heberg-mars-wrap
 	{
 		display: flex;
 		background-color: initial;
@@ -253,7 +253,7 @@
 		height: auto;
 		margin-left: 0px;
 	}
-	.picturewrapiconlegend
+	.picture-wrap-icon-legend
 	{
 		justify-content: center;
 		width: 85%;
@@ -272,71 +272,71 @@
 		font-size: 1.5em;
 		margin-left: 50px;
 	}
-	.titleactivitymars
+	.title-activity-mars
 	{
 		font-size: 24px;
 	}
-	.containersactivity
+	.containers-activity
 	{
 		justify-content: space-around;
 	}
-	.titleimgactivity
+	.title-img-activity
 	{
 		font-size: 1.5em;
 		height: 60px;
 	}
-	.galleryactivitymars
+	.gallery-activity-mars
 	{
 		flex-wrap: wrap;
 		justify-content: center;
 		margin-left: 0px;
 		height: auto;	
 	}
-	.vieuxport
+	.vieux-port
 	{
 		display: flex;
 		width: 544px;
 		height: 220px;
 	}
-	.imgportwrap
+	.img-port-wrap
 	{
 		width: 544px;
 		height: 220px
 	}
-	.imgparc
+	.img-parc
 	{
 		display: none;
 	}
-	.calanquesimgwrap
+	.calanques-img-wrap
 	{
 		display: flex;
 		width: 544px;
 		height: 220px;
 	}
-	.imgparcwrap
+	.img-parc-wrap
 	{
 		width: 544px;
 		height: 220px;
 	}
-	.imgall
+	.img-all
 	{
 		width: 544px;
 		height: 220px;
 	}
-	.imgvieuxport
+	.img-vieux-port
 	{
 		display: none;
 	}
-	.imgNDG, .imgfort
+	.img-NDG, .img-fort
 	{
 		margin-top: 90px;
 	}
-	.imgportwrap, .imgileswrap, .imgparcwrap,
-	.imglongchamp
+	.img-port-wrap, .img-iles-wrap, .img-parc-wrap,
+	.img-longchamp
 	{
 		margin-top: 30px;
 	}
-	.containerslinkwrap
+	.containers-link-wrap
 	{
 		flex-direction: column;
    		font-size: 1.5em;
@@ -345,5 +345,9 @@
 	{
 		flex-direction: column;
 		height: auto;
+	}
+	.footer-link-wrap
+	{
+		flex-direction: column;
 	}
 }	

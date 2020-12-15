@@ -1,10 +1,10 @@
-@media screen and (max-width: 767px)
+@media screen and (max-device-width: 600px)
 {
 	body
 	{
-		max-width: 767px;
+		width: 600px;
 		margin: 0px;
-		zoom:0;
+
 	}
 	.containersheader
 	{
@@ -343,6 +343,7 @@
 	}
 	footer
 	{
+		flex-direction: column;
 		height: auto;
 	}
 }	

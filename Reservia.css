@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
 body, .searchlocations
@@ -8,11 +9,12 @@ body, .searchlocations
 .logoheader
 {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	align-content: flex-start;
 	flex-direction: row;
-	width: ;
+	width: auto;
 }
 .containersheader
 {
@@ -37,6 +39,7 @@ body, .searchlocations
 {
 	display: flex;
 	flex-direction: row;
+	width: auto;
 }
 .headerlinkins
 {
@@ -194,7 +197,7 @@ body, .searchlocations
 }
 .containerslocations
 {
-	display: flex;
+	display: block;
 	justify-content: space-between;
 	align-content: space-around;
 	flex-wrap: wrap;
@@ -212,7 +215,7 @@ body, .searchlocations
 }
 .listhebergmarswrap
 {
-	display: flex;
+	display: block;
 	align-content: space-around;
 	align-items: flex-start;
 	align-content: space-around;
@@ -301,7 +304,7 @@ body, .searchlocations
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-content: center;
-	width: 30%;
+	width: 420px;
 	height: auto;
 	background-color: #F2F2F2;
 	border-radius: 15px;
@@ -388,7 +391,7 @@ h4
 {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
+	width: auto;
 	margin-top: 40px;
 }
 .imgall
@@ -474,13 +477,13 @@ footer
 	text-decoration: none;
 	margin-top: 50px;
 }
-.containerslinkwrap
+.footerlinkwrap
 {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
+	width: 70%;
 	justify-content: space-between;
-	width:70%;
 	text-decoration: none;
 }
 .titlelinkwrap

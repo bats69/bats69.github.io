@@ -40,13 +40,13 @@
 		flex-wrap: wrap;
 		width: auto;
 	}
-	.header-link-heb:hover, .header-link-act:hover, 
+	.header_link_heb:hover, .header_link_act:hover, 
 	.header-link-ins:hover
 	{
 		border-top: none;
 	}
-	.header-link-heb:hover, .header-link-act:hover, 
-	.header-link-ins:hover
+	.header_link_heb:hover, .header_link_act:hover, 
+	.header_link_ins:hover
 	{
 		border-bottom: 4px solid #0065FC;
 	}
@@ -151,10 +151,6 @@
 	{
 		width: 20%;
 		justify-content: space-between;
-	}
-	.img-fort
-	{
-		margin-bottom: 20px;
 	}
 	.gallery-activity-mars
 	{

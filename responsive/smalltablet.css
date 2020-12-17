@@ -1,0 +1,196 @@
+@media screen and (min-width: 481px) and (max-width: 768px)
+{ 
+	body
+	{
+		max-width: 768px;
+		height: auto;
+		margin: 0px auto;
+	}
+	.containers-header-wrap
+	{
+		display: block;
+		flex-wrap: wrap;
+		width: auto;
+		margin: 0px auto;
+	}
+	.logo-header
+	{
+		justify-content: space-around;
+		width: auto;
+		height: 150px;
+   		align-content: center;
+	}
+	.logo
+	{
+		justify-content: center;
+		margin-left: 20px;
+		height: 50px;
+	}
+	.containers-header-wrap nav
+	{
+		justify-content: space-around;
+		width: 100%;
+		border-bottom: 4px solid #F2F2F2;
+		margin-bottom: 50px;
+	}
+	.title-filters
+	{
+		width: 100%;
+	}
+	.filters-button-icon
+	{
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: auto;
+	}
+	.header-link-heb:hover, .header-link-act:hover, 
+	.header-link-ins:hover
+	{
+		border-top: none;
+	}
+	.header-link-heb:hover, .header-link-act:hover, 
+	.header-link-ins:hover
+	{
+		border-bottom: 4px solid #0065FC;
+	}
+	.filter-icon-wrap
+	{
+		display: flex;
+	}
+	.filter-icon
+	{
+		width: fit-content;
+    	margin-top: 15px;
+	}
+	.containers-locations
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-around;
+		align-content: space-between;
+		width: 100%;
+		height: auto;
+		margin: 0px auto;
+	}
+	.title-popular
+	{
+		margin-bottom: 30px;
+    	width: 100%;
+    	justify-content: space-around;
+		margin-bottom: 30px;
+		font-size: larger;
+	}
+	.picture1, .picture2, .picture3
+	{
+		margin-bottom: 20px;
+	}
+	.most-popular-wrap
+	{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		width: 80%;
+		margin: 0px auto;
+		height: 600px;
+		margin-bottom: 20px;
+	}
+	#hebergement
+	{
+		font-size: larger;
+    	justify-content: center;
+    	padding: 0px;
+	}
+	.list-heberg-mars-wrap
+	{
+		align-content: space-between;
+		justify-content: space-between;
+		width: 100%;
+		height: auto;
+		margin: 0px auto;
+	}
+	.picture-contains
+	{
+		display: flex;
+		justify-content: center;
+		height: auto;
+		margin: 0px auto;
+	}
+	.picture1, .picture2, .picture3
+	{
+		margin: 0px;
+	}
+	.plus
+	{
+		display: flex;
+		width: 100%;
+		align-content: space-between;
+	}
+	.containers-activity
+	{
+		margin: 0px;
+		height: auto;
+	}
+	.title-activity-mars
+	{
+		display: flex;
+		justify-content: center;
+		height: auto;
+		font-size: large;
+	}
+	.title-img-activity
+	{
+		line-height: 1em;
+	}
+	.img-port-wrap
+	{
+		
+		margin-bottom: 20px;
+
+	}
+	.img-parc-wrap
+	{
+		margin-bottom: 20px;
+	}
+	.img-iles-wrap
+	{
+		margin-bottom: 20px;
+	}.img-NDG
+	{
+		margin-bottom: 20px;
+	}
+	
+	.img-fort
+	{
+		margin-bottom: 20px;
+	}
+	.img-longchamp
+	{
+		margin-bottom: 20px;
+	}
+	.img3et4-wrap
+	{
+		
+		justify-content: space-between;
+	}
+	.gallery-activity-mars
+	{
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin: 0px;
+	}
+	footer
+	{
+		flex-wrap: nowrap;
+		width: auto;
+		margin: 0px auto;
+		height: auto;
+	}
+	
+	.footer-link-wrap
+	{
+		margin-left: 4%;
+		width: 100%;
+    	margin-right: 20px;
+	}
+
+}

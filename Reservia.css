@@ -443,7 +443,6 @@ h4
 	display: flex;
 	align-content: center;
 	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 100%;
 	height: 100%;
@@ -477,7 +476,7 @@ footer
 	text-decoration: none;
 	margin-top: 50px;
 }
-.footer-link-wrap
+.footer_link_wrap
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -487,13 +486,13 @@ footer
 	text-decoration: none;
 	margin-left: 5%;
 }
-.title-link-wrap
+.title_link_wrap
 {
 	font-weight: bold;
 	font-size: 1.3em;
 	line-height: 2em;
 }
-.title-link-wrap:hover
+.title_link_wrap:hover
 {
 	text-decoration: none;
 }

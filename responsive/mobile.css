@@ -12,30 +12,45 @@
 	}
 	.logo-header
 	{
-		justify-content: space-around;
-		width: 100%;
+		margin-left: 30px;
 	}
 	.logo
 	{
 		height: 80px;
 	}
-	.header_link_ins--mobile
+	.header_link_ins
 	{
 		display: flex;
-		margin-top: 15px;
+		position: absolute;
+   		margin-left: 375px;
+   		margin-top: -95px;
 		flex-direction: row;
 		color: #0065FC;
 		font-weight: bold;
-		font-size: 1.8em;
+		font-size: 1.3em;
 	}
 	.containers-header-wrap nav
 	{
-		justify-content: space-around;
+		justify-content: flex-start;
 		flex-direction: row;
 		margin-top: 30px;
 		margin-bottom: 30px;
 		width: 100%;
-		border-bottom: 4px solid #f2f2f2;
+	}
+	.header_link_heb
+	{
+		margin-left: 0px;
+    	border-bottom: 2px solid #0065fc;
+    	padding-bottom: 20px;
+    	width: 50%;
+    	justify-content: center;
+	}
+	.header_link_act
+	{
+		border-bottom: 2px solid #f2f2f2;
+    	padding-bottom: 20px;
+    	width: 50%;
+    	justify-content: center;
 	}
 	.header_link_nav
 	{
@@ -52,10 +67,6 @@
 	.header_link_act:hover
 	{
 		border-bottom: 4px solid #0065FC;
-	}
-	.header_link_ins
-	{
-		display: none;
 	}
 	.search-locations
 	{
@@ -209,7 +220,7 @@
 		align-content: space-around;
 		justify-content: space-around;
 		width: 100%;
-		height: 700px;
+		height: 750px;
 		margin-right: 0px;
 		border-radius: 0px 0px;
 	}
